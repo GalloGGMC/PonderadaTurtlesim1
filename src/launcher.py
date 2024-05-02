@@ -6,7 +6,7 @@ res1 = subprocess.Popen('ros2 run turtlesim turtlesim_node', shell=True,stdout=s
 time.sleep(0.5)
 res2 = subprocess.Popen('ros2 run turtlesim turtle_teleop_key', shell=True,stdout=subprocess.PIPE)
 time.sleep(0.5)
-res3 = subprocess.Popen('python3 ros_tutorials/turtlesim/tutorials/turtle_drawing.py', shell=True,stdout=subprocess.PIPE)  
+res3 = subprocess.Popen('python3 src/ros_tutorials/turtlesim/tutorials/turtle_drawing.py', shell=True,stdout=subprocess.PIPE)  
 
 
 while True:
